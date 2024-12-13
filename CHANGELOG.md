@@ -1,5 +1,72 @@
 # Changelog
 
+## 1.0.0 (2024-12-13)
+
+
+### Features
+
+* ([#954](https://github.com/Chuangwh/pauter/issues/954)) Add Vietnamese translations for billing-related terms ([267a55a](https://github.com/Chuangwh/pauter/commit/267a55aae50f87edb483abb375029ff79e736112))
+* add brazillian translations for billing-related terms in br.js ([e66df14](https://github.com/Chuangwh/pauter/commit/e66df14862e6dd7278623279e43e2189e7ddafe5))
+* add brazillian translations for billing-related terms in br.js (revision) ([fdfc90a](https://github.com/Chuangwh/pauter/commit/fdfc90a9317a19d45a0b2b3ad283be9a10a92732))
+* add Escape key functionality to UIPrompt for closing the prompt ([e1b6c83](https://github.com/Chuangwh/pauter/commit/e1b6c83813d03809aba0abdecbf6de5529728031))
+* add missing Igbo translations for billing-related terms ([f0f19e7](https://github.com/Chuangwh/pauter/commit/f0f19e727e574a8558fcbbf27ba501f434db69f8))
+* add reset edit changes button to dev-center ([55ffd80](https://github.com/Chuangwh/pauter/commit/55ffd801e007723758eacc17ec732ee5a336123e))
+* add support for categories in the Dev Center ([7cf215a](https://github.com/Chuangwh/pauter/commit/7cf215ab677e3fc912a3bd1ac52795c1e8860c32))
+* add vietnamese translations for billing in vi.js ([3e26dbe](https://github.com/Chuangwh/pauter/commit/3e26dbe6a0411fe75c36cf2866d34f28a2dcb553))
+* added a few Korean translatations ([b23e800](https://github.com/Chuangwh/pauter/commit/b23e800f4e70f162b52cc15053d03961a37033bb))
+* added tagify in Filetype-Association input in dev center ([0cd1f15](https://github.com/Chuangwh/pauter/commit/0cd1f151b5986ede431f1792139fa1a5471ae059))
+* allow developers to set social media images for their apps ([be36d31](https://github.com/Chuangwh/pauter/commit/be36d31509280340e2a62a8c478b1e64617792a4))
+* automatically open the browser when starting Puter ([2d43129](https://github.com/Chuangwh/pauter/commit/2d4312972a1377a64732694811fe889f59573432))
+* complete Hungarian translation of Puter [#972](https://github.com/Chuangwh/pauter/issues/972) ([7d2787d](https://github.com/Chuangwh/pauter/commit/7d2787d26b3a64cbc128fb2cb3871b43b41912fe))
+* Complete the German (Deutsch) translation of Puter ([05fef67](https://github.com/Chuangwh/pauter/commit/05fef6749e8d80f13ab94a4e0ea49ce4972a0961))
+* Complete the Vietnamese translation of Puter [#954](https://github.com/Chuangwh/pauter/issues/954) ([56489c3](https://github.com/Chuangwh/pauter/commit/56489c33f611fc053096b455e4cb7b3d8f20852c))
+* enable/disable save button in dev-center iff changes made ([63a0053](https://github.com/Chuangwh/pauter/commit/63a0053da8c76bf4ac175c7f17353225443dd342))
+* puter.js's showSpinner() will keep the spinner active for at least 1200ms ([fc5aca1](https://github.com/Chuangwh/pauter/commit/fc5aca1f72de22c1530054272b55a59021ba9caa))
+* record signup metadata for abuse prevention ([66016b9](https://github.com/Chuangwh/pauter/commit/66016b9db602ca85e8f0ddc846865d4641e64190))
+* set max token to 8096 ([b2ea8a3](https://github.com/Chuangwh/pauter/commit/b2ea8a3888c5496858d257018071ba54abd6f4a8))
+* spinner for the `showWorking()` overlay in puter.js ([1062363](https://github.com/Chuangwh/pauter/commit/1062363096418f164a6d00ed8872770ff64237b5))
+
+
+### Bug Fixes
+
+* add an id to `My Websites` content menu item ([e662c78](https://github.com/Chuangwh/pauter/commit/e662c782b745f4f98024d1353a6a162d5fe58c44))
+* add fallback moderation in case openai goes down ([c6e814d](https://github.com/Chuangwh/pauter/commit/c6e814daa80eec01c10f319ebebcb84c42cd26e1))
+* add id to the setting menu item in user option menu ([67ca4cc](https://github.com/Chuangwh/pauter/commit/67ca4ccf20fd714848121192d5ae7c41f3763da4))
+* add missing import ([e279dc6](https://github.com/Chuangwh/pauter/commit/e279dc6e5f4095550f41aadd194ea94e1e2a2271))
+* add missing permissions ([69e9df1](https://github.com/Chuangwh/pauter/commit/69e9df1ae21cf906dfcc3d9d7a23455e5274271c))
+* always adapt model for ClaudeEnough ([56710e1](https://github.com/Chuangwh/pauter/commit/56710e17f3b06eef07e54c243f6b725fcc4a4583))
+* app query should return app metadata ([3cedd17](https://github.com/Chuangwh/pauter/commit/3cedd17b8ed4acb1099bc2e87aba0137339c8a17))
+* automatically open browser when starting only if in dev env ([f500fb4](https://github.com/Chuangwh/pauter/commit/f500fb47061f8f3a3dc7d871cb529f5c0b058185))
+* bad import for TeePromise ([acf8ae3](https://github.com/Chuangwh/pauter/commit/acf8ae302ec4ee79c11c2b0e810edd53f21446c5))
+* bug in writeFile rename ([298609c](https://github.com/Chuangwh/pauter/commit/298609c6e9080e00c90b66c673e104d90f9d3ed0))
+* configuration for browser launch ([791f774](https://github.com/Chuangwh/pauter/commit/791f7748c7c1959f63327a73a7e24e41b574a910))
+* context error in user connected event ([9600823](https://github.com/Chuangwh/pauter/commit/96008233ba4935e789cd092c07aa8b351cb44d45))
+* correct AI comment faults ([b40d453](https://github.com/Chuangwh/pauter/commit/b40d4534a71565a7f2d0ae278c98d7326c5aa963))
+* correct Igbo translation for "Free" in billing terms ([6f4d57a](https://github.com/Chuangwh/pauter/commit/6f4d57a3c6da607038f4fbe49c691478f47933be))
+* **deps:** update multiple dependencies ([70096a8](https://github.com/Chuangwh/pauter/commit/70096a8d6f5492170018073698ee70b930a06d85))
+* fake_chat default model and usage errors ([13a895b](https://github.com/Chuangwh/pauter/commit/13a895b76b1e5a677c2eeeb0a07be6ce9fd02a99))
+* fix issue when there is an assistant role ([9965f21](https://github.com/Chuangwh/pauter/commit/9965f219d85ae1b581e34fc5405464b085b968b2))
+* ignore two calls with undefined origin ([ab4ba76](https://github.com/Chuangwh/pauter/commit/ab4ba76433ac623abaa17c0e5dd024e95b9fef3f))
+* image generation supports test mode ([f533dca](https://github.com/Chuangwh/pauter/commit/f533dca1a6d88ca7a14bd69f15d0a151e24c58e1))
+* improve backend mod error handling ([fe1a4cf](https://github.com/Chuangwh/pauter/commit/fe1a4cfd4d5dd1eddbb2d50ef3f5ebf78a81656d))
+* Japanese Translation for i18n ([fceaf71](https://github.com/Chuangwh/pauter/commit/fceaf714c303185056752ca4532ef6901b3b3cbd))
+* logic from previous commit ([6ca7011](https://github.com/Chuangwh/pauter/commit/6ca701139a07a0d20071cf1532cc6e95639a01da))
+* permission strings for ES services ([4d9cc9b](https://github.com/Chuangwh/pauter/commit/4d9cc9bd830d0c73024f2bc5a91ab226aedefded))
+* previous fix ([ee7bedd](https://github.com/Chuangwh/pauter/commit/ee7bedd5586d69ce74f32c1400f377d6a8971eaa))
+* provide actor context to ws event ([1b57801](https://github.com/Chuangwh/pauter/commit/1b578019f915918e51185f5705d7fa6e0328b9ae))
+* remove inactive links in README ([f3d270c](https://github.com/Chuangwh/pauter/commit/f3d270ccbcd8990270cf968a3638b7affa2df6ba))
+* remove unnecessary `integrity` and `crossorigin` attributes in dev center when linking to jquery ([8dec78b](https://github.com/Chuangwh/pauter/commit/8dec78b090ec4434ad77003d6f3c25de98779864))
+* remove unnecessary `item_path` definition in `delete` fs api ([c792f4a](https://github.com/Chuangwh/pauter/commit/c792f4a345b307d024f73ff2817ae473b2620913))
+* resolve issue [#983](https://github.com/Chuangwh/pauter/issues/983) - Stuck on Creating new app loading screen ([c75c9d0](https://github.com/Chuangwh/pauter/commit/c75c9d03833af52730cac89a8fee5f5c317f0f78))
+* safe parsing of app metadata ([a2c7b37](https://github.com/Chuangwh/pauter/commit/a2c7b379f8181b373b0513d9166f75adc147aafa))
+* **security:** verify dest_node uid matches signature ([e208b99](https://github.com/Chuangwh/pauter/commit/e208b99d211e98cd88e0a8b2917bbe6b2f2423a0))
+* signup 500 for temp user ([01395f3](https://github.com/Chuangwh/pauter/commit/01395f302e763cdad022c0e5a995869fcd805d86))
+* sorting bug in AIChatService ([7acb096](https://github.com/Chuangwh/pauter/commit/7acb096addd58113cc8d4338ba941cd14ac81f4f))
+* test issues from contextlink removal ([545e7db](https://github.com/Chuangwh/pauter/commit/545e7db5bdac6e39962390469767667bc62857fd))
+* undefined APIOrigin ([340c7a8](https://github.com/Chuangwh/pauter/commit/340c7a821fb91e2d106c2b3febf8182de7b21f7d))
+* update package-lock.json ([8577185](https://github.com/Chuangwh/pauter/commit/857718538b8a7bf27dc036f4eeb3728cb6ea96e7))
+* update test kernel ([a1c2226](https://github.com/Chuangwh/pauter/commit/a1c2226561655e091cbc0d014ada62bfc7881f2a))
+
 ## v2.4.2 (2024-07-22)
 
 ### Puter
